@@ -6,9 +6,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Util {
-
+	/**
+	 * @author devendra
+	 */
 	static WebDriver driver;
-	
+	/**
+	 * Initilization of WebDriver 
+	 * @return driver
+	 */
 	static public WebDriver initDriver() {
 		System.setProperty("webdriver.gecko.driver", "/home/dsharma/driver/geckodriver");
 		driver = new FirefoxDriver();
